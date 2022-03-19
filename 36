@@ -1,0 +1,50 @@
+#include<stdio.h>
+#include <math.h>
+#include <stdbool.h>
+
+int main(){
+    
+    int dig1, dig2, dig3,n,sum,i,sum1,dur[4],arr[4];
+    int dig4; 
+    bool mybool = true;
+    
+    dig1= 2; //smallest prime number 
+    
+    dig2 = 1*2;
+    
+    dig3= dig2/dig2;
+    
+    dig4 = sqrt(3);
+
+    
+    arr[0] = dig1;
+    arr[1] = dig2;
+    arr[2] = dig3;
+    arr[3] = dig4;
+    
+    
+    
+
+    for(i=0; i<4; i++)  
+    {
+      scanf("%d", &dur[i]);
+    }
+    
+    if(dur[0]==arr[0] && dur[1] == arr[1] && dur[2] == arr[2])
+    {
+        if (dur[3] == arr[3])
+        {
+        printf("biyer date mone nai");
+        }
+    }
+    
+    else{
+        printf("ok bye");
+    }
+ 
+ 
+ 
+ return 0;    
+}
+        
+    
