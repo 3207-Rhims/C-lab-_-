@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main(){
+    
+    int run , oil_cost,result;
+    
+    oil_cost = 300/25;
+    
+    scanf("%d",&run);
+    
+    result = run*oil_cost;
+    printf("%d",result);
+    
+    
+    return 0;
+}
