@@ -1,0 +1,140 @@
+//second program
+
+#include<stdio.h> //header file
+
+int main()
+{
+    // 2 , H , 2.5 
+    
+    //varibales x=9
+    
+    // a + b = 7
+    
+     //for taking input
+    
+    int a;
+    
+    scanf("%d", &a);
+    
+    printf(" = %d X",a);
+    
+    
+    // arithmatic operator  + , - ,* , / , % = modulo division  
+
+    int x= 9 , y=19 , z , d=7 ,r;
+    
+    z = x + y + d;
+    
+    r = y % d;
+    
+    // increment (++)  and decrement (--)
+    
+    // --a , a++  
+    
+    // a = 5
+    
+    // a-- = 4  or  ++a =6
+    
+    printf("%d \n",y);
+    
+    // print y's decrement value using posfix decrement-time 1 minute 
+    
+    // assignment operator  = , x=9 , += ,-=
+    
+    // a = a+b , a+=b
+    // a= a-b , a-=b
+    
+    x=x+y;
+    
+    //x+=y;
+    
+    //relational operator  ==  [x=9 , y=9 , x == y] , 5 > 3 , 3 < 5 , x >= y , x <= y , != 
+    
+    printf("%d \n", x==y); 
+    
+    // logical operator  && - logical and , || -  logical or , ! - logical not 
+    
+    
+    //****************************
+    //condition 
+    //***************************
+    
+    // if = jodi 
+    
+    // if (x==9)
+    //{
+    
+    // test expression
+    
+    // } 
+    
+    if ( x == 9 && y==10) // both of the condition has to be true in logical and
+    {
+        printf("Hellow everyone! are you tired ? ");
+    }
+    
+    if ( x == 9 || y==19) // one of the condition has to be true in logical and
+    {
+        printf("Hellow everyone! are you tired ? *****************");
+    }    
+    
+    
+    // if else 
+    
+    if ( x==8) 
+       {
+        printf(" hello");
+    }
+    
+    else {
+         printf("%d \n", x+y); 
+    }
+    
+    
+    // if , else if , else 
+    
+    if ( x == 9)
+    {
+        printf(" okay");
+        }
+        
+    if (x == 9)
+    {
+        printf("okay al right ");
+    }
+    
+    else{
+        printf("you are wrong");
+    }
+    
+    
+    // nested if else 
+    
+    if ( x ==9)
+    {
+        
+        if ( y == 19)
+        { 
+            
+            if (d ==0)
+            {
+                
+                printf(" okay I am done");
+            }
+            
+            else
+            {
+                
+                printf(" Error! ");
+            }
+        }
+    }
+    
+    
+    
+    
+    //printf("%d \n",x);
+ 
+    
+    return 0;
+}
